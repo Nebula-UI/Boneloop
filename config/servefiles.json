@@ -1,0 +1,69 @@
+{
+	"jshint": {
+		"files": [
+			"client/apps/**/*.js"
+		],
+		"ignore": [
+			"client/main.js",
+			"client/systems/libs/**/*.js",
+			"client/systems/frameworks/**/*.js"
+		]
+	},
+	"jscs": {
+		"files": [
+			"client/apps/**/*.js"
+		]
+	},
+	"csslint": {
+		"files": [
+			"client/stylesheets/css/**/*.css"
+		],
+		"ignore": [
+			"client/systems/libs/**/*.css",
+			"client/systems/frameworks/**/*.css"
+		]
+	},
+	"htmlhint": {
+		"Root_HTML_Files": {
+			"files": [
+				"client/*.html"
+			],
+			"ignore": []
+		},
+		"Templates": {
+			"files": [
+				"client/templates/**/*.html"
+			],
+			"ignore": []
+		}
+	},
+	"less": {
+		"readyMade": {
+			"files": {
+				"client/systems/frameworks/bootstrap/css/bootstrap.min.css": "client/systems/frameworks/bootstrap/less/bootstrap.less",
+				"client/systems/frameworks/bootstrap/css/bootstrap-theme.min.css": "client/systems/frameworks/bootstrap/less/theme.less"
+			}
+		},
+		"customMade": {
+			"files": {
+				"client/stylesheets/css/common/common.css": [
+					"client/stylesheets/less/common/imports.less"
+				]
+			}
+		}
+	},
+	"watch": {
+		"less": {
+			"files": [
+				"client/stylesheets/less/**/*.less"
+			]
+		}
+	},
+	"htmlmin": {
+		"files": {
+			"prod/index.html": "prod/index.html",
+			"prod/templates/homeTpl.html": "prod/templates/homeTpl.html",
+			"prod/templates/aboutTpl.html": "prod/templates/aboutTpl.html"
+		}
+	}
+}
