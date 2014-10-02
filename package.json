@@ -1,19 +1,50 @@
 {
-  "name": "boneloop",
-  "version": "0.0.0",
-  "main": "server/server.js",
-  "scripts": {
-    "pretest": "jshint ."
-  },
+  "name": "Boneloop",
+  "version": "0.0.1",
+  "author": "Ashwin Hegde",
+  "description": "Boneloop is an open source enterprise edition of Nebula https://github.com/hegdeashwin/Nebula.",
   "dependencies": {
-    "compression": "^1.0.3",
-    "errorhandler": "^1.1.1",
-    "loopback": "^2.0.0",
-    "loopback-boot": "^2.0.0",
-    "loopback-datasource-juggler": "^2.7.0",
-    "serve-favicon": "^2.0.1"
+    "compression": "~1.0.3",
+    "errorhandler": "~1.1.1",
+    "loopback": "~2.0.0",
+    "loopback-boot": "~2.0.0",
+    "loopback-datasource-juggler": "~2.7.0",
+    "serve-favicon": "~2.0.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-jscs": "~0.7.1",
+    "grunt-contrib-csslint": "~0.2.0",
+    "grunt-htmlhint": "~0.4.0",
+    "grunt-contrib-less": "~0.11.0",
+    "grunt-contrib-watch": "~0.6.0  ",
+    "grunt-strip": "~0.2.1",
+    "grunt-shell": "~1.1.1",
+    "grunt-contrib-htmlmin": "~0.3.0",
+    "grunt-autoprefixer": "~1.0.0",
+    "time-grunt": "~1.0.0"
   },
   "optionalDependencies": {
     "loopback-explorer": "^1.1.0"
+  },
+  "keywords": [
+    "boneloop",
+    "backbone",
+    "framework",
+    "web",
+    "rest",
+    "restful",
+    "node",
+    "express",
+    "architecture",
+    "nebula",
+    "marionette",
+    "loopback"
+  ],
+  "engines": {
+    "node": ">=0.10"
   }
 }
