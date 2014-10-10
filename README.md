@@ -1,6 +1,7 @@
-Boneloop
-=========
-[![Build Status](https://travis-ci.org/hegdeashwin/Boneloop.svg?branch=master)](https://travis-ci.org/hegdeashwin/Boneloop)   [![Dependency Status](https://gemnasium.com/hegdeashwin/Boneloop.svg)](https://gemnasium.com/hegdeashwin/Boneloop)   [![Built with Grunt](http://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+# Boneloop [![GitHub version](http://img.shields.io/badge/version-0.0.3-brightgreen.svg)](https://github.com/hegdeashwin/Boneloop/releases)
+
+
+[![Build Status](https://travis-ci.org/hegdeashwin/Boneloop.svg?branch=master)](https://travis-ci.org/hegdeashwin/Boneloop)   [![Dependency Status](https://gemnasium.com/hegdeashwin/Boneloop.svg)](https://gemnasium.com/hegdeashwin/Boneloop)  [![Node.js version](http://img.shields.io/badge/Node.js-%3E%200.10-brightgreen.svg)](https://github.com/hegdeashwin/Boneloop/) [![Built with Grunt](http://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)  [![License version](http://img.shields.io/badge/License-MIT-red.svg)](https://github.com/hegdeashwin/Boneloop#license)
 
 Boneloop is an open source enterprise edition of <a href="https://github.com/hegdeashwin/Nebula" target="_blank">Nebula</a> based upon <a href="http://backbonejs.org/" target="_blank">Backbone</a> + <a href="http://marionettejs.com/" target="_blank">Marionette</a> - A scalable and composite application architecture for Backbone.js.
 
