@@ -4,7 +4,7 @@
   "author": "Ashwin Hegde",
   "description": "Boneloop is an open source enterprise edition of Nebula https://github.com/hegdeashwin/Nebula.",
   "dependencies": {
-    "compression": "~1.1.0",
+    "compression": "~1.2.0",
     "errorhandler": "~1.2.0",
     "loopback": "~2.0.0",
     "loopback-boot": "~2.0.0",
