@@ -8,7 +8,7 @@
     "errorhandler": "~1.2.0",
     "loopback": "~2.0.0",
     "loopback-boot": "~2.0.0",
-    "loopback-datasource-juggler": "~2.9.0",
+    "loopback-datasource-juggler": "~2.11.0",
     "serve-favicon": "~2.1.5"
   },
   "devDependencies": {
