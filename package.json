@@ -25,7 +25,7 @@
     "grunt-shell": "~1.1.1",
     "grunt-contrib-htmlmin": "~0.4.0",
     "grunt-autoprefixer": "~2.2.0",
-    "time-grunt": "~1.0.0"
+    "time-grunt": "~1.1.0"
   },
   "optionalDependencies": {
     "loopback-explorer": "^1.1.0"
