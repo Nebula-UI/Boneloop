@@ -15,18 +15,18 @@ requirejs.config({
     paths: {
         /*** List of frameworks/libraries to be included in the codebase. ***/
         /* Core */
-        'jquery': '../systems/libs/jquery/jquery.min',
-        'underscore': '../systems/libs/support/underscore.min',
-        'backbone': '../systems/libs/backbone/backbone.min',
-        'marionette': '../systems/libs/backbone/framework/backbone.marionette.min',
-        'handlebars': '../systems/libs/handlebars/handlebars.min',
+        'jquery': '../bower_components/jquery/jquery.min',
+        'underscore': '../bower_components/underscore/underscore',
+        'backbone': '../bower_components/backbone/backbone',
+        'marionette': '../bower_components/marionette/lib/backbone.marionette.min',
+        'handlebars': '../bower_components/handlebars/handlebars.min',
 
         /* Backbone/Merionette plugins */
-        'backbone.babysitter': '../systems/libs/backbone/framework/backbone.babysitter',
-        'backbone.wreqr': '../systems/libs/backbone/framework/backbone.wreqr',
+        'backbone.babysitter': '../bower_components/backbone.babysitter/lib/backbone.babysitter.min',
+        'backbone.wreqr': '../bower_components/backbone.wreqr/lib/backbone.wreqr.min',
 
         /* Require plugins */
-        'text': '../systems/libs/require/plugins/text.min',
+        'text': '../bower_components/requirejs-text/text',
 
         /* Other system utilities */
         'template': '../systems/utilities/hd-template-mapper',
