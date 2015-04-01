@@ -1,6 +1,6 @@
 {
   "name": "Boneloop",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Ashwin Hegde",
   "description": "Boneloop is an open source enterprise edition of Nebula https://github.com/hegdeashwin/Nebula.",
   "dependencies": {
