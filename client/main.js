@@ -25,15 +25,8 @@ requirejs.config({
         'backbone.babysitter': '../systems/libs/backbone/framework/backbone.babysitter',
         'backbone.wreqr': '../systems/libs/backbone/framework/backbone.wreqr',
 
-        /* Supporting */
-        'i18n': '../systems/libs/support/i18n.min',
-        'json3': '../systems/libs/support/json3.min',
-
         /* Require plugins */
         'text': '../systems/libs/require/plugins/text.min',
-
-        /* Handlebars plugins */
-        'swag': '../systems/libs/handlebars/plugins/swag.min',
 
         /* Other system utilities */
         'template': '../systems/utilities/hd-template-mapper',
@@ -66,41 +59,18 @@ requirejs.config({
             deps: ['backbone.babysitter', 'backbone.wreqr', 'backbone'],
             exports: 'Marionette'
         },
-        'i18n': {
-            deps: ['jquery'],
-            exports: 'i18n'
-        },
-        'json3': {
-            exports: 'json3'
-        },
         'text': {
             exports: 'text'
         },
         'handlebars': {
             exports: 'Handlebars'
-        },
-        'swag': {
-            deps: ['handlebars'],
-            exports: 'Swag'
         }
     }
 });
 
-require(['app', 'router/router', 'controllers/controller', 'i18n'], function(App, Router, Controller, i18n) {
+require(['app', 'router/router', 'controllers/controller'], function(App, Router, Controller) {
     App.router = new Router({
         controller: new Controller()
     });
     App.start();
-
-    i18n.init({
-        lng: 'en',
-        debug: true,
-        fallbackLng: 'en',
-        load: 'unspecific',
-        resGetPath: "locales/__lng__/__ns__.json",
-        ns: {
-            namespaces: ['translation'],
-            defaultNs: 'translation'
-        }
-    });
 });
