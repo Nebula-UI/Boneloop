@@ -23,4 +23,4 @@ License
 =======
 The MIT License (MIT)
 
-Copyright (c) 2015 Ashwin Hegde
+Copyright (c) 2016 Ashwin Hegde
